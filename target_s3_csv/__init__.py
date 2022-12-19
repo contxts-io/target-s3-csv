@@ -17,7 +17,7 @@ from jsonschema import Draft7Validator, FormatChecker
 from target_s3_csv import s3
 from target_s3_csv import utils
 
-logger = singer.get_logger('target_s3_csv')
+logger = singer.get_logger()
 
 
 def emit_state(state):
