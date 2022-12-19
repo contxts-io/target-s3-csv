@@ -10,7 +10,7 @@ from typing import Optional, Tuple, List, Dict, Iterator
 from botocore.client import BaseClient
 from botocore.exceptions import ClientError
 
-LOGGER = singer.get_logger('target_s3_csv')
+LOGGER = singer.get_logger()
 
 
 def retry_pattern():
